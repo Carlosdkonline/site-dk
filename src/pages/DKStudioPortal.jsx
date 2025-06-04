@@ -31,7 +31,6 @@ const equipe = [
   { nome: "Sarah Versiani", cargo: "Professora", imagem: "/equipe/sarah.JPG" },
   { nome: "Zion Mota", cargo: "Professor", imagem: "/equipe/zion.JPG" }
 ];
-
   const espetaculos = [
     {
       id: 1,
