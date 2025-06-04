@@ -187,7 +187,7 @@ export default function DKStudioPortal() {
           <div ref={scrollEquipeRef} className="flex gap-6 overflow-x-auto no-scrollbar pb-4">
             {Array.from({ length: 13 }, (_, i) => i + 1).map((i) => (
               <div key={i} className="bg-white/5 rounded-2xl overflow-hidden min-w-[180px] md:min-w-[200px] h-[300px] flex flex-col flex-shrink-0 hover:scale-105 transition-transform">
-                <img src={`/membro${i}.jpg`} alt={`Membro ${i}`} className="w-full h-[65%] object-cover" />
+                <img src={`/membro${i}.JPG`} alt={`Membro ${i}`} className="w-full h-[65%] object-cover" />
                 <div className="flex flex-col justify-center items-center px-4 py-2">
                   <h4 className="text-md font-semibold">NOME {i}</h4>
                   <p className="text-xs text-gray-400">CARGO {i}</p>
