@@ -26,7 +26,7 @@ const equipe = [
   { nome: "Gladson Santos", cargo: "Professor", imagem: "/equipe/gladson.jpg" },
   { nome: "Ítalo Lopes", cargo: "Professor & Diretor Financeiro", imagem: "/equipe/italo.jpg" },
   { nome: "Lívia Carabetti", cargo: "Professora", imagem: "/equipe/livia.jpg" },
-  { nome: "Marcella Gozzi", cargo: "Professora", imagem: "/equipe/marcella-gozzi.jpg" },
+  { nome: "Marcella Gozzi", cargo: "Professora", imagem: "/equipe/marcella gozzi.jpg" },
   { nome: "Ruan Lopes", cargo: "Professor & Diretor Executivo", imagem: "/equipe/ruan lopes.jpg" },
   { nome: "Sarah Versiani", cargo: "Professora", imagem: "/equipe/sarah.jpg" },
   { nome: "Zion Mota", cargo: "Professor", imagem: "/equipe/zion.jpg" }
