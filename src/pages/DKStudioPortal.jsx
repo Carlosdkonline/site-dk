@@ -15,21 +15,21 @@ export default function DKStudioPortal() {
     { id: 1, titulo: "Ritual de 5 anos", descricao: "O DK Studio revive sua história no espetáculo Imortal!", imagem: "/noticia-1.jpg" },
   ];
 const equipe = [
-  { nome: "Ana Guedes", cargo: "Professora", imagem: "/equipe/ana guedes.JPG" },
-  { nome: "Carol Avelar", cargo: "Professora", imagem: "/equipe/carol avelar.JPG" },
-  { nome: "Carolina Amaral", cargo: "Professora", imagem: "/equipe/carolina amaral.JPG" },
-  { nome: "Carlos Antônio", cargo: "Diretor Operacional", imagem: "/equipe/carlos antonio.JPG" },
-  { nome: "Dener Clisnman", cargo: "Professor e Aux. Adm.", imagem: "/equipe/dener.JPG" },
-  { nome: "Emily Santos", cargo: "Aux. Adm.", imagem: "/equipe/emily.JPG" },
-  { nome: "Gabriel Nagao", cargo: "Professor", imagem: "/equipe/nagao.JPG" },
-  { nome: "Gabi Red", cargo: "Professora", imagem: "/equipe/gabi.JPG" },
-  { nome: "Gladson Santos", cargo: "Professor", imagem: "/equipe/gladson.JPG" },
-  { nome: "Ítalo Lopes", cargo: "Professor & Diretor Financeiro", imagem: "/equipe/italo.JPG" },
-  { nome: "Lívia Carabetti", cargo: "Professora", imagem: "/equipe/livia.JPG" },
-  { nome: "Marcella Gozzi", cargo: "Professora", imagem: "/equipe/marcella-gozzi.JPG" },
-  { nome: "Ruan Lopes", cargo: "Professor & Diretor Executivo", imagem: "/equipe/ruan lopes.JPG" },
-  { nome: "Sarah Versiani", cargo: "Professora", imagem: "/equipe/sarah.JPG" },
-  { nome: "Zion Mota", cargo: "Professor", imagem: "/equipe/zion.JPG" }
+  { nome: "Ana Guedes", cargo: "Professora", imagem: "/equipe/ana guedes.jpg" },
+  { nome: "Carol Avelar", cargo: "Professora", imagem: "/equipe/carol avelar.jpg" },
+  { nome: "Carolina Amaral", cargo: "Professora", imagem: "/equipe/carolina amaral.jpg" },
+  { nome: "Carlos Antônio", cargo: "Diretor Operacional", imagem: "/equipe/carlos antonio.jpg" },
+  { nome: "Dener Clisnman", cargo: "Professor e Aux. Adm.", imagem: "/equipe/dener.jpg" },
+  { nome: "Emily Santos", cargo: "Aux. Adm.", imagem: "/equipe/emily.jpg" },
+  { nome: "Gabriel Nagao", cargo: "Professor", imagem: "/equipe/nagao.jpg" },
+  { nome: "Gabi Red", cargo: "Professora", imagem: "/equipe/gabi.jpg" },
+  { nome: "Gladson Santos", cargo: "Professor", imagem: "/equipe/gladson.jpg" },
+  { nome: "Ítalo Lopes", cargo: "Professor & Diretor Financeiro", imagem: "/equipe/italo.jpg" },
+  { nome: "Lívia Carabetti", cargo: "Professora", imagem: "/equipe/livia.jpg" },
+  { nome: "Marcella Gozzi", cargo: "Professora", imagem: "/equipe/marcella-gozzi.jpg" },
+  { nome: "Ruan Lopes", cargo: "Professor & Diretor Executivo", imagem: "/equipe/ruan lopes.jpg" },
+  { nome: "Sarah Versiani", cargo: "Professora", imagem: "/equipe/sarah.jpg" },
+  { nome: "Zion Mota", cargo: "Professor", imagem: "/equipe/zion.jpg" }
 ];
   const espetaculos = [
     {
