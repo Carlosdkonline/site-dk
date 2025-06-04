@@ -14,6 +14,23 @@ export default function DKStudioPortal() {
   const noticias = [
     { id: 1, titulo: "Ritual de 5 anos", descricao: "O DK Studio revive sua história no espetáculo Imortal!", imagem: "/noticia-1.jpg" },
   ];
+const equipe = [
+  { nome: "Ana Guedes", cargo: "Professora", imagem: "/equipe/ana guedes.JPG" },
+  { nome: "Carol Avelar", cargo: "Professora", imagem: "/equipe/carol avelar.JPG" },
+  { nome: "Carolina Amaral", cargo: "Professora", imagem: "/equipe/carolina amaral.JPG" },
+  { nome: "Carlos Antônio", cargo: "Diretor Operacional", imagem: "/equipe/carlos antonio.JPG" },
+  { nome: "Dener Clisnman", cargo: "Professor e Aux. Adm.", imagem: "/equipe/dener.JPG" },
+  { nome: "Emily Santos", cargo: "Aux. Adm.", imagem: "/equipe/emily.JPG" },
+  { nome: "Gabriel Nagao", cargo: "Professor", imagem: "/equipe/nagao.JPG" },
+  { nome: "Gabi Red", cargo: "Professora", imagem: "/equipe/gabi.JPG" },
+  { nome: "Gladson Santos", cargo: "Professor", imagem: "/equipe/gladson.JPG" },
+  { nome: "Ítalo Lopes", cargo: "Professor & Diretor Financeiro", imagem: "/equipe/italo.JPG" },
+  { nome: "Lívia Carabetti", cargo: "Professora", imagem: "/equipe/livia.JPG" },
+  { nome: "Marcella Gozzi", cargo: "Professora", imagem: "/equipe/marcella-gozzi.JPG" },
+  { nome: "Ruan Lopes", cargo: "Professor & Diretor Executivo", imagem: "/equipe/ruan lopes.JPG" },
+  { nome: "Sarah Versiani", cargo: "Professora", imagem: "/equipe/sarah.JPG" },
+  { nome: "Zion Mota", cargo: "Professor", imagem: "/equipe/zion.JPG" }
+];
 
   const espetaculos = [
     {
@@ -185,15 +202,18 @@ export default function DKStudioPortal() {
             <ChevronLeft />
           </button>
           <div ref={scrollEquipeRef} className="flex gap-6 overflow-x-auto no-scrollbar pb-4">
-            {Array.from({ length: 13 }, (_, i) => i + 1).map((i) => (
-              <div key={i} className="bg-white/5 rounded-2xl overflow-hidden min-w-[180px] md:min-w-[200px] h-[300px] flex flex-col flex-shrink-0 hover:scale-105 transition-transform">
-                <img src={`/membro${i}.JPG`} alt={`Membro ${i}`} className="w-full h-[65%] object-cover" />
-                <div className="flex flex-col justify-center items-center px-4 py-2">
-                  <h4 className="text-md font-semibold">NOME {i}</h4>
-                  <p className="text-xs text-gray-400">CARGO {i}</p>
-                </div>
+          {equipe.map((membro, index) => (
+            <div
+              key={index}
+              className="bg-white/5 rounded-2xl overflow-hidden min-w-[180px] md:min-w-[200px] h-[300px] flex flex-col flex-shrink-0 hover:scale-105 transition-transform"
+            >
+              <img src={membro.imagem} alt={membro.nome} className="w-full h-[65%] object-cover" />
+              <div className="flex flex-col justify-center items-center px-4 py-2">
+                <h4 className="text-md font-semibold">{membro.nome}</h4>
+                <p className="text-xs text-gray-400">{membro.cargo}</p>
               </div>
-            ))}
+            </div>
+          ))}
           </div>
           <button onClick={() => scrollRight(scrollEquipeRef)} className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/20 p-2 rounded-full hover:bg-white/40">
             <ChevronRight />
